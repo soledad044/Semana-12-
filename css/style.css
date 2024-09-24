@@ -1,0 +1,82 @@
+body {
+    background-color: #e50914; /* Fondo rojo similar a N****ix :p */
+    color: white; /* Texto en blanco */
+}
+
+h1, h2 {
+    font-family: 'Arial', sans-serif; /* Fuente similar a N****ix */
+}
+
+main {
+    min-height: calc(100vh - 100px);
+}
+
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: #333; /* Fondo oscuro para las imágenes */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.card-content {
+    height: 150px;
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad para el contenido */
+    border-radius: 0 0 8px 8px; /* Bordes redondeados en la parte inferior */
+    padding: 10px; /* Espaciado interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar efecto de elevación */
+}
+
+.checked {
+    color: rgb(236, 178, 53); /* Color para estrellas seleccionadas */
+}
+
+.stars .fa-star {
+    color: grey; /* Color para estrellas no seleccionadas */
+}
+
+.text-warning {
+    color: rgb(236, 178, 53); /* Color para estrellas seleccionadas */
+}
+
+/* Estilo para los botones */
+.btn {
+    background-color: #e50914; /* Fondo rojo para los botones */
+    color: white; /* Texto en blanco */
+    transition: background-color 0.3s ease; /* Suaviza la transición */
+}
+
+.btn:hover {
+    background-color: #f40612; /* Fondo rojo más oscuro al pasar el mouse */
+}
+
+/* Estilo de la lista de películas */
+.list-group-item {
+    background-color: transparent; /* Fondo transparente para los elementos de la lista */
+    border: none; /* Sin borde */
+    margin: 10px 0; /* Espaciado entre elementos */
+    transition: background-color 0.3s; /* Suavizar transición de fondo */
+}
+
+.list-group-item:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo claro al pasar el mouse */
+}
+
+.list-group-item h5 {
+    font-size: 1.25rem; /* Tamaño del texto del título */
+    font-weight: bold; /* Negrita */
+}
+
+.list-group-item p {
+    margin: 5px 0; /* Espaciado entre párrafos */
+}
+
+.d-none {
+    display: none !important; /* Oculta el elemento */
+}
